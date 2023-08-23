@@ -1,5 +1,7 @@
 # BrainF*ck Script to multiply two numbers
 # Result has to be less than 10 (a single digit number)
+# given example 42: 4 will be in block #1 2 will be in block #2
+# block 0 will store the result
 # block 1 will hold the value to multiply
 # block 2 will hold the amount of times to multiply
 # the result of an input of 42 will output the result of 4*2
