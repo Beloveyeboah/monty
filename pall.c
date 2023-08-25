@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * pall - Prints all the values on the stack.
@@ -7,7 +7,7 @@
  */
 void pall(stack_t **stack, unsigned int line_number)
 {
-	stack_t *current = *stack;
+	stack_t *current = (*stack)->next;
 
 	while (current)
 	{
